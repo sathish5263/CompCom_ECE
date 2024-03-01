@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+      animation-delay: 4s;
+    }
+    .welcome {
+      @apply relative text-slate-300 
+    }
+    .welcome::before {
+      @apply content-['COMPCOM2024'] absolute bg-gradient-to-r from-blue-900 via-violet-900 to-blue-900 text-transparent bg-clip-text border-r-2 border-blue-800 top-0 left-0 w-0 h-[100%] overflow-hidden animate-animate
+    }
+}
+
+ul li::after {
+  content: "";
+  height: 0.4em;
+  width: 0.4em;
+  border: 2px solid rgb(20 0 0);
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0.5em;
+  left: 0;
+}
+.countdown-spinner {
+  animation: spinSlow 15s infinite;
+}
+@keyframes spinSlow {
+  from {
+    transform: scale(115%) rotate(0);
+  }
+  to {
+    transform: scale(115%) rotate(360deg);
+  }
+}
