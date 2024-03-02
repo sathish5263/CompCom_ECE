@@ -65,7 +65,7 @@ const Hero = () => {
 
               {/* Second and third paragraphs (conditional visibility) */}
               <p className={(hideText ? "hidden " : " ") + "sm:block"}>
-                COMPCOM unveils a spectrum of avant-garde events, spanning technical intricacies, non-technical facets delving into cutting-edge domains such as antennas, communication, augmented reality, virtual reality, and other emerging technologies. Attendees will seize the golden opportunity to engage with proficient experts across diverse domains, extracting valuable insights into the latest advancements and trends shaping the technological landscape.
+                COMPCOM unveils a spectrum of avant-garde events, spanning technical intricacies, non-technical facets delving into cutting-edge domains such as antennas, communication, other emerging technologies. Attendees will seize the golden opportunity to engage with proficient experts across diverse domains, extracting valuable insights into the latest advancements and trends shaping the technological landscape.
               </p>
               <p className={(hideText ? "hidden " : " ") + "sm:block"}>
                 With its unparalleled content and networking prospects, COMPCOM stands as an imperative on the agenda for individuals passionate about delving into the forefront of Electronics and Communication engineering, ensuring an enriching exploration and expansion of their technological interests.

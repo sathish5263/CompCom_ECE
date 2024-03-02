@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const EventModal = ({ isOpen, setIsOpen, event }: any) => {
   const isWorkshop = event.isWorkshop;
-  const registerURL = "https://forms.gle/RUKYBpTmGk6EDccPA";
+  const registerURL = "https://docs.google.com/forms/d/e/1FAIpQLSc3NL-GQo5iMpZj3Y4WFSrkk5_XQaz44hto1K8iCaKRgYFicA/viewform";
 
   return (
     <Dialog
@@ -232,13 +232,13 @@ const EventModal = ({ isOpen, setIsOpen, event }: any) => {
                     </div>
                   </div>
                   <div className="mt-8 w-full sm:w-max sm:ml-auto sm:mt-auto">
-                    <a
+                    {/* <a
                       className="w-full inline-flex justify-center rounded-2xl bg-blue-900 p-4 text-base font-semibold text-white hover:bg-blue-700 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700 active:text-white/70"
                       href={isWorkshop ? event.url : registerURL}
                       target="_blank"
                     >
                       Register Now
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
