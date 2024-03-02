@@ -118,8 +118,8 @@ const EventModal = ({ isOpen, setIsOpen, event }: any) => {
                       </ul>
                     </div>
                   )}
-                  </div>
-                  <div className="sm:flex gap-10 mt-5 pb-7 px-10 border-4 rounded-xl">
+                </div>
+                <div className="sm:flex gap-10 mt-5 pb-7 px-10 border-4 rounded-xl">
                   {event.rounds && (
                     <div className="sm:min-w-[320px] sm:w-1/2">
                       <h4 className="font-display text-blue-900 mt-10 text-xl font-bold">
