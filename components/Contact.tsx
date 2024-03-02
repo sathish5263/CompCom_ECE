@@ -26,7 +26,7 @@ const Contact = () => {
                 Mark your calendars
               </p>
               <p className="mt-2 font-display text-4xl font-bold tracking-tighter text-blue-900 sm:text-5xl">
-               14th March
+               13th March
               </p>
               <div className="mt-8">
                 <p className="text-lg -tracking-wide text-red-950 mb-2">
